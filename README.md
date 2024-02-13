@@ -8,7 +8,6 @@ their ugly-ass keys.
 
 OpenSSH 5.1 introduced a visual hash representation of public keys. From its changelog:
 
-```
  * Introduce experimental SSH Fingerprint ASCII Visualisation to ssh(1)
    and ssh-keygen(1). Visual fingerprinnt display is controlled by a new
    ssh_config(5) option "VisualHostKey". The intent is to render
@@ -25,6 +24,7 @@ OpenSSH 5.1 introduced a visual hash representation of public keys. From its cha
        Cryptographic Techniques and E-Commerce (CrypTEC '99)
        http://users.ece.cmu.edu/~adrian/projects/validation/validation.pdf
        http://lists.mindrot.org/pipermail/openssh-unix-dev/2008-July/026693.html
+   
 You can visualize your existing keys with the following command:
 
 ```
